@@ -14,7 +14,7 @@ class App extends Component{
     this.state = { videos: []};
 
     YTSearch(
-      {key: API_KEY, term: 'Surfboards'}, videos => this.setState({ videos })
+      {key: API_KEY, term: 'League of Legends'}, videos => this.setState({ videos })
       // if term and data have same declaration { videos: videos} => { videos }
     );
   }
