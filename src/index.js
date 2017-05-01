@@ -5,6 +5,7 @@ import SearchBar from './components/search_bar';
 import VideoList from './components/video_list';
 
 // localhost = http://127.0.0.1:8080/
+// <npm start> to start server 
 
 const API_KEY = 'AIzaSyDE8WguX7HpEvAy-_wtl4anoP1MF7-3Usc';
 
