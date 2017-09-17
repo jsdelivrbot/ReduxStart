@@ -12,3 +12,4 @@ describe('App' , () => {
     expect(component).to.exist;
   });
 });
+//thingy
