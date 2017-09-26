@@ -12,10 +12,15 @@ class SearchBar extends Component{
       <div className='search-bar'>
         <input
           value={this.state.value}
-          onChange={e => this.setState({ term: e.target.value})}
+          onChange={e => this.onChangeInput(e.target.value)}
         />
       </div>
     );
+  }
+
+  onChangeInput(term) {
+    this.setState({term});
+    this.props.onSearchInput(term);
   }
 }
 
